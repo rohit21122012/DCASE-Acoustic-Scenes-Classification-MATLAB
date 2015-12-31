@@ -4,7 +4,7 @@ function [allFileId, allFeature, allClass] = getFeatures( filesPath )
   files = dir([filesPath, '*wav']);
   for i = 1:length(files)
     fileName = files(i).name;
-    className = regexp(, 'a-z+', 'match'); %'bus' 'wav'
+    className = regexp(fileName, 'a-z+', 'match'); %'bus' 'wav'
     className = className{1};
 
     [audio, sr] = audioread([filesPath fileName]);
