@@ -4,4 +4,4 @@ config
 getFeaturesInCell('../Data/Scene/private_sample/');
 save('features.mat');
 
-matlabpool close
+%matlabpool close
