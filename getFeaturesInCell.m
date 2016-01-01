@@ -2,6 +2,7 @@ function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
 
   tic;
   display(['Extracting Features from Audio Files..']);
+  files = dir([filesPath, '*.wav']);
 
   allFeatures = cell(length(files),1);
   fileId = cell(length(files),1);
@@ -9,7 +10,6 @@ function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
   allClassLabel = nominal(repmat('',length(files),1));
   frameLabel = cell(length(files),1);
 
-  files = dir([filesPath, '*.wav']);
   parfor i = 1:length(files)
     fileName = files(i).name;      % bus_01.wav
     fileNameParts = regexp(fileName, '[a-z]+', 'match'); %'bus' 'wav'
