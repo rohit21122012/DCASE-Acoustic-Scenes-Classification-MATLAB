@@ -10,7 +10,7 @@ function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
   allClassLabel = nominal(repmat('',length(files),1));
   frameLabel = cell(length(files),1);
 
-  parfor i = 1:length(files)
+  for i = 1:length(files)
     fileName = files(i).name;      % bus_01.wav
     fileNameParts = regexp(fileName, '[a-z]+', 'match'); %'bus' 'wav'
     className = fileNameParts{1};
