@@ -16,7 +16,7 @@ function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
     className = fileNameParts{1};
     display(['Reading ... FileNo : ', '[', num2str(i), '/', num2str(length(files)), ...
   '],  FileName : ', fileName]);
-    [audio, sr] = audioread([dirPath fileName]);
+    [audio, sr] = audioread([filesPath fileName]);
     features = stFeatureExtraction(audio, sr, 0.030, 0.015)';
 
     allFeatures{i} = features;
