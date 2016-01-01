@@ -1,4 +1,5 @@
-function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
+function [allFeatures, allClassLabel, fileClassLabel, ...
+          X, Y, Z] = getFeatures( filesPath )
 
   tic;
   display(['Extracting Features from Audio Files..']);
@@ -7,45 +8,45 @@ function [allFeatures, allClassLabel, X, Y, Z] = getFeatures( filesPath )
   allFeatures = cell(length(files),1);
   fileId = cell(length(files),1);
 
-  allClassLabel = nominal(repmat('',length(files),1));
-  frameLabel = cell(length(files),1);
+  fileClassLabel = nominal(repmat('',length(files),1));
+  allClassLabel = cell(length(files),1);
 
   for i = 1:length(files)
     fileName = files(i).name;      % bus_01.wav
     fileNameParts = regexp(fileName, '[a-z]+', 'match'); %'bus' 'wav'
     className = fileNameParts{1};
-    display(['Reading ... FileNo : ', '[', num2str(i), '/', num2str(length(files)), ...
-  '],  FileName : ', fileName]);
+    display(['Reading ... FileNo : ', '[', num2str(i), '/', ...
+    num2str(length(files)), '],  FileName : ', fileName]);
     [audio, sr] = audioread([filesPath fileName]);
     features = stFeatureExtraction(audio, sr, 0.030, 0.015)';
 
     allFeatures{i} = features;
-    allClassLabel(i) = className;
+    fileClassLabel(i) = className;
     fileId{i} = repmat(i,length(features),1);
-    frameLabel{i} = nominal(repmat(className,length(features),1));
+    allClassLabel{i} = nominal(repmat(className,length(features),1));
   end
   toc;
 
   B = vertcat(fileId{:});
   X = vertcat(allFeatures{:});
-  Y = vertcat(frameLabel{:});
+  Y = vertcat(allClassLabel{:});
   Y = double(Y);
   Z =  [B X Y];
-  Z = [1:15; Z];
+  Z = [1:size(Z,2); Z];
 
-  csvwrite('midata.csv',Z);
+  csvwrite('wekadata.csv',Z);
 end
 %{
 
 save('privdata.mat');
-part = cvpartition(allClassLabel, 'kFold', 5);
+part = cvpartition(fileClassLabel, 'kFold', 5);
 
-nClasses = length(getlabels(allClassLabel));
+nClasses = length(getlabels(fileClassLabel));
 
 for i=1:part.NumTestSets
 
   X = allFeatures(training(part,i));
-  Y = frameLabel(training(part,i));
+  Y = allClassLabel(training(part,i));
   X = vertcat(X{:});
   Y = vertcat(Y{:});
   tic;
@@ -60,7 +61,7 @@ for i=1:part.NumTestSets
   toc;
 
   testX = allFeatures(test(part,i));
-  testY = frameLabel(test(part,i));
+  testY = allClassLabel(test(part,i));
 
   NBCM = zeros(nClasses, nClasses);
   tic;
@@ -69,7 +70,7 @@ for i=1:part.NumTestSets
     post = posterior(NBModel, testX{j});
     totLogPost = sum(log(post));
     [maxLogPost, maxIdx] = max(totLogPost);
-    cIdx = find(getlevels(allClassLabel) == testY{j}(1));
+    cIdx = find(getlevels(fileClassLabel) == testY{j}(1));
     NBCM(cIdx, maxIdx) = NBCM(cIdx, maxIdx) + 1;
   end
   toc;
@@ -91,7 +92,7 @@ for i=1:part.NumTestSets
     [lab,acc,post] = svmpredict(testX{j}, testY{j}, SVMModel, '-b 1 -q');
     totLogPost = sum(log(post));
     [maxLogPost, maxIdx] = max(totLogPost);
-    cIdx = find(getlevels(allClassLabel) == testY{j}(1));
+    cIdx = find(getlevels(fileClassLabel) == testY{j}(1));
     SVMCM(cIdx, maxIdx) = SVMCM(cIdx, maxIdx) + 1;
   end
   toc;
@@ -112,7 +113,7 @@ for i=1:part.NumTestSets
   xylim = [xlims ylims];
   hold on;
   Params = cell2mat(NBModel.Params);
-  %nClasses = length(getlevels(allClassLabel));
+  %nClasses = length(getlevels(fileClassLabel));
   Mu = Params(2*(1:nClasses)-1,1:2);
   Sigma = zeros(2,2,nClasses);
   for j=1:nClasses
