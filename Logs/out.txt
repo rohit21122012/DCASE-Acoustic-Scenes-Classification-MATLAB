@@ -1,0 +1,27 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> Starting matlabpool using the 'local' profile ... connected to 8 workers.
+Extracting Features from Audio Files..
+Reading ... FileNo : [2/10],  FileName : busystreet01.wav
+Reading ... FileNo : [3/10],  FileName : office01.wav
+Reading ... FileNo : [8/10],  FileName : supermarket01.wav
+Reading ... FileNo : [6/10],  FileName : quietstreet01.wav
+Reading ... FileNo : [7/10],  FileName : restaurant01.wav
+Reading ... FileNo : [5/10],  FileName : park01.wav
+Reading ... FileNo : [1/10],  FileName : bus01.wav
+Reading ... FileNo : [4/10],  FileName : openairmarket01.wav
+Reading ... FileNo : [9/10],  FileName : tube01.wav
+Reading ... FileNo : [10/10],  FileName : tubestation01.wav
+Elapsed time is 13.732101 seconds.
+Sending a stop signal to all the workers ... stopped.
+>> 

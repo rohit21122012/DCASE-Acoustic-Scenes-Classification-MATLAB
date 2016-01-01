@@ -1,6 +1,7 @@
 function [allFeatures, allClassLabel, fileClassLabel, ...
           X, Y, Z] = getFeatures( filesPath )
 
+  matlabpool open 8;
   tic;
   display(['Extracting Features from Audio Files..']);
   files = dir([filesPath, '*.wav']);
@@ -8,10 +9,10 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   allFeatures = cell(length(files),1);
   fileId = cell(length(files),1);
 
-  fileClassLabel = nominal(repmat('',length(files),1));
+  fileClassLabel = nominal();
   allClassLabel = cell(length(files),1);
 
-  for i = 1:length(files)
+  parfor i = 1:length(files)
     fileName = files(i).name;      % bus_01.wav
     fileNameParts = regexp(fileName, '[a-z]+', 'match'); %'bus' 'wav'
     className = fileNameParts{1};
@@ -21,7 +22,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
     features = stFeatureExtraction(audio, sr, 0.030, 0.015)';
 
     allFeatures{i} = features;
-    fileClassLabel(i) = className;
+    fileClassLabel(i,:) = className;
     fileId{i} = repmat(i,length(features),1);
     allClassLabel{i} = nominal(repmat(className,length(features),1));
   end
@@ -35,6 +36,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   Z = [1:size(Z,2); Z];
 
   csvwrite('wekadata.csv',Z);
+  matlabpool close
 end
 %{
 
