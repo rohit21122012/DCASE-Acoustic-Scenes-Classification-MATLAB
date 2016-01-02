@@ -1,7 +1,7 @@
 function [allFeatures, allClassLabel, fileClassLabel, ...
           X, Y, Z] = getFeatures( filesPath )
 
-  matlabpool open 8;
+  matlabpool open 10;
   tic;
   display(['Extracting Features from Audio Files..']);
   files = dir([filesPath, '*.wav']);
@@ -9,7 +9,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   allFeatures = cell(length(files),1);
   fileId = cell(length(files),1);
 
-  fileClassLabel = nominal();
+  fileClassLabel = nominal(repmat('file', length(files),1));
   allClassLabel = cell(length(files),1);
 
   parfor i = 1:length(files)
@@ -22,7 +22,8 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
     features = stFeatureExtraction(audio, sr, 0.030, 0.015)';
 
     allFeatures{i} = features;
-    fileClassLabel(i,:) = className;
+    fileClassLabel(i) = nominal(className);
+
     fileId{i} = repmat(i,length(features),1);
     allClassLabel{i} = nominal(repmat(className,length(features),1));
   end
