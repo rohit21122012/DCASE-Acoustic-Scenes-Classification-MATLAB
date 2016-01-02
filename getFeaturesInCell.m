@@ -9,7 +9,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   allFeatures = cell(length(files),1);
   fileId = cell(length(files),1);
 
-  fileClassLabel = nominal(repmat('file', length(files),1));
+  fileClassLabel = nominal();
   allClassLabel = cell(length(files),1);
 
   parfor i = 1:length(files)
