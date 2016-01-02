@@ -1,7 +1,7 @@
 function [allFeatures, allClassLabel, fileClassLabel, ...
           X, Y, Z] = getFeatures( filesPath )
 
-  matlabpool open 10;
+%  matlabpool open 10;
   tic;
   display(['Extracting Features from Audio Files..']);
   files = dir([filesPath, '*.wav']);
@@ -37,7 +37,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   Z = [1:size(Z,2); Z];
 
   csvwrite('wekadata.csv',Z);
-  matlabpool close
+ % matlabpool close
 end
 %{
 
