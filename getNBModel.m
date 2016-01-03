@@ -3,6 +3,6 @@ function [NBModel, time]= getNBModel(trainX, trainY)
   trainY = vertcat(trainY{:});
   trainX = trainX(:,9:21);
   start = tic;
-  NBModel = NaiveBayes.fit(trainX, trainY);
+  NBModel = NaiveBayes.fit(trainX, trainY);%, 'Distribution', 'kernel');
   time = toc(start);
 end

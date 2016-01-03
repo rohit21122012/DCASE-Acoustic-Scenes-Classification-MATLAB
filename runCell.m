@@ -1,5 +1,7 @@
+matlabpool open 5
 
-matlabpool open 10
+%{
+
 config
 
 [allFeatures, allClassLabel, fileClassLabel, X, Y, Z] = ...
@@ -13,26 +15,25 @@ cvParts = cvpartition(fileClassLabel, 'kFold', 5);
 
 save('partitions.mat');
 
+%}
 
-
-%load partitions
+load partitions
 
 numClasses = length(getlabels(fileClassLabel));
 NBCM = zeros(numClasses, numClasses, cvParts.NumTestSets);
 runTime = zeros(2,cvParts.NumTestSets);
-
 
 parfor i=1:cvParts.NumTestSets
   [trainX, trainY, testX, testY] = ...
               getPartitions(allFeatures, allClassLabel, cvParts, i);
   display(['Training Naive Bayes for ' num2str(i) ' th fold validation']);
   [NBModel, trainTime] = getNBModel(trainX, trainY);
-  runTime(1,i) = trainTime;
+  %runTime(1,i) = trainTime;
   display(['Testing Naive Bayes for ' num2str(i) ' th fold validation']);
   [NBCM(:,:,i), testTime] = getNBConfMat(NBModel, testX, testY);
-  runTime(2,i) = testTime;
+  runTime(:,i) = [trainTime;testTime];
 end
 
 matlabpool close
 
-save('NB.mat');
+save('NBNormal.mat');
