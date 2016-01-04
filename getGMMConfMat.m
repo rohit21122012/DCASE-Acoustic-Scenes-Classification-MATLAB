@@ -12,7 +12,7 @@ function [GMMCM, time] = getGMMConfMat(GMMModels, testX, testY)
     for c = 1:numClasses
       pdfs = [pdfs, pdf(GMMModels{c}, testX{j})];
     end
-    totLogPost = sum(log(post));
+    totLogPost = sum(log(pdfs));
     [maxLogPost, maxIdx] = max(totLogPost);
     cIdx = find(classes == testY{j}(1));
     GMMCM(cIdx, maxIdx) = GMMCM(cIdx, maxIdx) + 1;

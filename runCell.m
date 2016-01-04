@@ -32,10 +32,11 @@ parfor i=1:cvParts.NumTestSets
   [GMMModels, trainTime] = getGMMModels(trainX, trainY);
   display(['Testing GMM for ' num2str(i) ' th fold validation']);
   %[NBCM(:,:,i), testTime] = getNBConfMat(NBModel, testX, testY);
-  [GMMCM(:,:,i), testTime] = getGMMConfMat(NBModel, testX, testY);
+  [GMMCM(:,:,i), testTime] = getGMMConfMat(GMMModels, testX, testY);
   runTime(:,i) = [trainTime;testTime];
 end
 
 matlabpool close
 
-save('GMMNormal.mat');
+save('GMM8.mat');
+

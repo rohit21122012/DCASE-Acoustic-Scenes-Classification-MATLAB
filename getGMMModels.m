@@ -6,10 +6,12 @@ function [GMMModels, time]= getGMMModels(trainX, trainY)
   classes = getlevels(trainY);
   numClasses = length(classes);
   GMMModels = cell(numClasses,1);
+  options = statset('MaxIter', 1000 );
   start = tic;
 
   for i=1:numClasses
     ithClasstrainX = trainX(trainY == classes(i),:);
-    GMModels{i} = gmdistribution.fit(ithClasstrainX,4));
+    GMMModels{i} = gmdistribution.fit(ithClasstrainX,8, 'SharedCov', false, 'Options',options);
+  end
   time = toc(start);
 end
