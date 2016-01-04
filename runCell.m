@@ -19,21 +19,23 @@ save('partitions.mat');
 
 load partitions
 
-numClasses = length(getlabels(fileClassLabel));
-NBCM = zeros(numClasses, numClasses, cvParts.NumTestSets);
+numClasses = length(getlevels(fileClassLabel));
+%NBCM = zeros(numClasses, numClasses, cvParts.NumTestSets);
+GMMCM = zeros(numClasses, numClasses, cvParts.NumTestSets);
 runTime = zeros(2,cvParts.NumTestSets);
 
 parfor i=1:cvParts.NumTestSets
   [trainX, trainY, testX, testY] = ...
               getPartitions(allFeatures, allClassLabel, cvParts, i);
-  display(['Training Naive Bayes for ' num2str(i) ' th fold validation']);
-  [NBModel, trainTime] = getNBModel(trainX, trainY);
-  %runTime(1,i) = trainTime;
-  display(['Testing Naive Bayes for ' num2str(i) ' th fold validation']);
-  [NBCM(:,:,i), testTime] = getNBConfMat(NBModel, testX, testY);
+  display(['Training GMM for ' num2str(i) ' th fold validation']);
+  %[NBModel, trainTime] = getNBModel(trainX, trainY);
+  [GMMModels, trainTime] = getGMMModels(trainX, trainY);
+  display(['Testing GMM for ' num2str(i) ' th fold validation']);
+  %[NBCM(:,:,i), testTime] = getNBConfMat(NBModel, testX, testY);
+  [GMMCM(:,:,i), testTime] = getGMMConfMat(NBModel, testX, testY);
   runTime(:,i) = [trainTime;testTime];
 end
 
 matlabpool close
 
-save('NBNormal.mat');
+save('GMMNormal.mat');
