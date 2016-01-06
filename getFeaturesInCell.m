@@ -36,7 +36,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
   Z =  [B X Y];
   Z = [1:size(Z,2); Z];
 
-  csvwrite('wekadata.csv',Z);
+  csvwrite('New/wekadata.csv',Z);
  % matlabpool close
 end
 %{

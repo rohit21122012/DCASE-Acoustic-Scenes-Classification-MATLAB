@@ -47,17 +47,19 @@ for i=1:numOfFrames % for each frame
     if (sum(abs(frame))>eps)
         % compute time-domain features:
         Features(1,i) = feature_zcr(frame);
-        Features(2,i) = feature_energy(frame);
+        Features(2,i) = log(feature_energy(frame));
 
         % compute freq-domain features:
         if (i==1) frameFFTPrev = frameFFT; end;
         MFCCs = feature_mfccs(frameFFT, mfccParams);
         Features(3:15,i) = MFCCs;
-        Features(16:30,i) = deltas(Features(1:15,i));
-        Features(31:45,i) = deltas(Features(16:30,i));
+     %   Features(16:30,i) = log(deltas(Features(1:15,i),2));
+     %   Features(31:45,i) = log(deltas(Features(16:30,i),2));
     else
         Features(:,i) = zeros(numOfFeatures, 1);
     end
     curPos = curPos + step;
     frameFFTPrev = frameFFT;
 end
+Features(16:30,:) = deltas(Features(1:15,:));
+Features(31:45,:) = deltas(Features(16:30,:));

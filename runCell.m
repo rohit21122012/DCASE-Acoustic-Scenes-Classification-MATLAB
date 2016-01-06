@@ -1,23 +1,23 @@
-matlabpool open 5
+matlabpool open 10
 
-%{
+
 
 config
 
 [allFeatures, allClassLabel, fileClassLabel, X, Y, Z] = ...
 getFeaturesInCell('../Data/Scene/scenes_stereo_test/');
-save('features.mat');
+save('New/features.mat');
 
 
 %load features
 
 cvParts = cvpartition(fileClassLabel, 'kFold', 5);
 
-save('partitions.mat');
+save('New/partitions.mat');
 
 %}
 
-load partitions
+%load partitions
 
 numClasses = length(getlevels(fileClassLabel));
 %NBCM = zeros(numClasses, numClasses, cvParts.NumTestSets);
@@ -38,5 +38,5 @@ end
 
 matlabpool close
 
-save('GMM8.mat');
+save('New/GMM.mat');
 

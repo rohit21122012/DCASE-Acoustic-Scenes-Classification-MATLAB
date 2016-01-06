@@ -11,7 +11,7 @@ function [GMMModels, time]= getGMMModels(trainX, trainY)
 
   for i=1:numClasses
     ithClasstrainX = trainX(trainY == classes(i),:);
-    GMMModels{i} = gmdistribution.fit(ithClasstrainX,8, 'SharedCov', false, 'Options',options);
+    GMMModels{i} = gmdistribution.fit(ithClasstrainX,1, 'SharedCov', false, 'Options',options);
   end
   time = toc(start);
 end
