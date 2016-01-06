@@ -19,7 +19,7 @@ function [allFeatures, allClassLabel, fileClassLabel, ...
     display(['Reading ... FileNo : ', '[', num2str(i), '/', ...
     num2str(length(files)), '],  FileName : ', fileName]);
     [audio, sr] = audioread([filesPath fileName]);
-    features = stFeatureExtraction(audio, sr, 0.030, 0.015)';
+    features = getCustomFeatures(audio, sr, 0.030, 0.015)';
 
     allFeatures{i} = features;
     fileClassLabel(i) = nominal(className);

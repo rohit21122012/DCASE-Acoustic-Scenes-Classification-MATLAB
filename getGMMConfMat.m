@@ -7,7 +7,7 @@ function [GMMCM, time] = getGMMConfMat(GMMModels, testX, testY)
 
   GMMCM = zeros(numClasses, numClasses);
   for j=1:length(testX)
-    testX{j} = testX{j}(:,9:21);
+  %  testX{j} = testX{j}(:,9:21);
     pdfs = [];
     for c = 1:numClasses
       pdfs = [pdfs, pdf(GMMModels{c}, testX{j})];

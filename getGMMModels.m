@@ -1,7 +1,7 @@
 function [GMMModels, time]= getGMMModels(trainX, trainY)
   trainX = vertcat(trainX{:});
   trainY = vertcat(trainY{:});
-  trainX = trainX(:,9:21);
+  %trainX = trainX(:,9:21);
 
   classes = getlevels(trainY);
   numClasses = length(classes);
