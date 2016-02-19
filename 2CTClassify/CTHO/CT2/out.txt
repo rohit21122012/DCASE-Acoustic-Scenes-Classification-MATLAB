@@ -1,0 +1,42 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> Training model for 1 th fold validation
+Testing model for 1 th fold validation
+Training model for 2 th fold validation
+Testing model for 2 th fold validation
+Training model for 3 th fold validation
+Testing model for 3 th fold validation
+Training model for 4 th fold validation
+Testing model for 4 th fold validation
+Training model for 5 th fold validation
+Testing model for 5 th fold validation
+sumCM =
+    10     0     0     0     0     0     0     0     0     0
+     0     9     0     0     0     0     0     0     1     0
+     0     0     7     0     0     3     0     0     0     0
+     0     2     0     6     0     0     2     0     0     0
+     0     0     1     0     5     4     0     0     0     0
+     0     0     0     0     6     4     0     0     0     0
+     0     0     0     5     0     0     5     0     0     0
+     1     0     0     3     0     3     1     2     0     0
+     1     0     0     0     1     0     0     0     6     2
+     2     1     0     1     0     0     0     0     4     2
+accuracy =
+   0.560000000000000
+sumRT =
+   1.0e+02 *
+   3.519619790000000
+   0.018329160000000
+ans =
+   0.560000000000000
+>> 
