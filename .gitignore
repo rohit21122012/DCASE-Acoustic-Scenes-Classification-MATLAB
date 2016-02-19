@@ -1,3 +1,4 @@
-*.mat
-*.csv
-Log*
+**/*.mat
+**/*.csv
+**/er.txt
+**/in.txt
