@@ -1,0 +1,162 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> Starting matlabpool using the 'local' profile ... connected to 10 workers.
+Extracting Features from Audio Files..
+Reading ... FileNo : [64/100],  FileName : restaurant04.wav
+Reading ... FileNo : [59/100],  FileName : quietstreet09.wav
+Reading ... FileNo : [21/100],  FileName : office01.wav
+Reading ... FileNo : [54/100],  FileName : quietstreet04.wav
+Reading ... FileNo : [35/100],  FileName : openairmarket05.wav
+Reading ... FileNo : [48/100],  FileName : park08.wav
+Reading ... FileNo : [14/100],  FileName : busystreet04.wav
+Reading ... FileNo : [7/100],  FileName : bus07.wav
+Reading ... FileNo : [28/100],  FileName : office08.wav
+Reading ... FileNo : [42/100],  FileName : park02.wav
+Reading ... FileNo : [63/100],  FileName : restaurant03.wav
+Reading ... FileNo : [58/100],  FileName : quietstreet08.wav
+Reading ... FileNo : [20/100],  FileName : busystreet10.wav
+Reading ... FileNo : [53/100],  FileName : quietstreet03.wav
+Reading ... FileNo : [34/100],  FileName : openairmarket04.wav
+Reading ... FileNo : [47/100],  FileName : park07.wav
+Reading ... FileNo : [13/100],  FileName : busystreet03.wav
+Reading ... FileNo : [6/100],  FileName : bus06.wav
+Reading ... FileNo : [27/100],  FileName : office07.wav
+Reading ... FileNo : [41/100],  FileName : park01.wav
+Reading ... FileNo : [62/100],  FileName : restaurant02.wav
+Reading ... FileNo : [57/100],  FileName : quietstreet07.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [19/100],  FileName : busystreet09.wav
+Reading ... FileNo : [52/100],  FileName : quietstreet02.wav
+Reading ... FileNo : [33/100],  FileName : openairmarket03.wav
+Reading ... FileNo : [46/100],  FileName : park06.wav
+Reading ... FileNo : [12/100],  FileName : busystreet02.wav
+Reading ... FileNo : [5/100],  FileName : bus05.wav
+Reading ... FileNo : [26/100],  FileName : office06.wav
+Reading ... FileNo : [40/100],  FileName : openairmarket10.wav
+Reading ... FileNo : [61/100],  FileName : restaurant01.wav
+Reading ... FileNo : [60/100],  FileName : quietstreet10.wav
+Reading ... FileNo : [56/100],  FileName : quietstreet06.wav
+Reading ... FileNo : [18/100],  FileName : busystreet08.wav
+Reading ... FileNo : [51/100],  FileName : quietstreet01.wav
+Reading ... FileNo : [50/100],  FileName : park10.wav
+Reading ... FileNo : [32/100],  FileName : openairmarket02.wav
+Reading ... FileNo : [31/100],  FileName : openairmarket01.wav
+Reading ... FileNo : [45/100],  FileName : park05.wav
+Reading ... FileNo : [44/100],  FileName : park04.wav
+Reading ... FileNo : [11/100],  FileName : busystreet01.wav
+Reading ... FileNo : [10/100],  FileName : bus10.wav
+Reading ... FileNo : [4/100],  FileName : bus04.wav
+Reading ... FileNo : [25/100],  FileName : office05.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [39/100],  FileName : openairmarket09.wav
+Reading ... FileNo : [38/100],  FileName : openairmarket08.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [55/100],  FileName : quietstreet05.wav
+Reading ... FileNo : [17/100],  FileName : busystreet07.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [49/100],  FileName : park09.wav
+Reading ... FileNo : [43/100],  FileName : park03.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [9/100],  FileName : bus09.wav
+Reading ... FileNo : [3/100],  FileName : bus03.wav
+Reading ... FileNo : [24/100],  FileName : office04.wav
+Reading ... FileNo : [37/100],  FileName : openairmarket07.wav
+Reading ... FileNo : [68/100],  FileName : restaurant08.wav
+Reading ... FileNo : [30/100],  FileName : office10.wav
+Reading ... FileNo : [2/100],  FileName : bus02.wav
+Reading ... FileNo : [72/100],  FileName : supermarket02.wav
+Reading ... FileNo : [16/100],  FileName : busystreet06.wav
+Reading ... FileNo : [8/100],  FileName : bus08.wav
+Reading ... FileNo : [23/100],  FileName : office03.wav
+Reading ... FileNo : [75/100],  FileName : supermarket05.wav
+Reading ... FileNo : [36/100],  FileName : openairmarket06.wav
+Reading ... FileNo : [67/100],  FileName : restaurant07.wav
+Reading ... FileNo : [71/100],  FileName : supermarket01.wav
+Reading ... FileNo : [15/100],  FileName : busystreet05.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [29/100],  FileName : office09.wav
+Reading ... FileNo : [78/100],  FileName : supermarket08.wav
+Reading ... FileNo : [1/100],  FileName : bus01.wav
+Reading ... FileNo : [22/100],  FileName : office02.wav
+Reading ... FileNo : [74/100],  FileName : supermarket04.wav
+Reading ... FileNo : [81/100],  FileName : tube01.wav
+Reading ... FileNo : [66/100],  FileName : restaurant06.wav
+Reading ... FileNo : [77/100],  FileName : supermarket07.wav
+Reading ... FileNo : [83/100],  FileName : tube03.wav
+Reading ... FileNo : [85/100],  FileName : tube05.wav
+Reading ... FileNo : [87/100],  FileName : tube07.wav
+Reading ... FileNo : [70/100],  FileName : restaurant10.wav
+Reading ... FileNo : [89/100],  FileName : tube09.wav
+Reading ... FileNo : [65/100],  FileName : restaurant05.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [69/100],  FileName : restaurant09.wav
+Reading ... FileNo : [88/100],  FileName : tube08.wav
+Reading ... FileNo : [73/100],  FileName : supermarket03.wav
+Reading ... FileNo : [84/100],  FileName : tube04.wav
+Reading ... FileNo : [76/100],  FileName : supermarket06.wav
+Reading ... FileNo : [80/100],  FileName : supermarket10.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [79/100],  FileName : supermarket09.wav
+Reading ... FileNo : [86/100],  FileName : tube06.wav
+Reading ... FileNo : [91/100],  FileName : tubestation01.wav
+Reading ... FileNo : [90/100],  FileName : tube10.wav
+Reading ... FileNo : [82/100],  FileName : tube02.wav
+Reading ... FileNo : [92/100],  FileName : tubestation02.wav
+Reading ... FileNo : [93/100],  FileName : tubestation03.wav
+Reading ... FileNo : [94/100],  FileName : tubestation04.wav
+Reading ... FileNo : [95/100],  FileName : tubestation05.wav
+Reading ... FileNo : [96/100],  FileName : tubestation06.wav
+Reading ... FileNo : [97/100],  FileName : tubestation07.wav
+Reading ... FileNo : [98/100],  FileName : tubestation08.wav
+Reading ... FileNo : [99/100],  FileName : tubestation09.wav
+Warning: New categorical levels being added.
+[> In categorical.subsasgn at 43
+  In getFeaturesInCell>(parfor body) at 25
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Reading ... FileNo : [100/100],  FileName : tubestation10.wav
+Elapsed time is 8.946807 seconds.
+Sending a stop signal to all the workers ... stopped.
+>> 
