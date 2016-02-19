@@ -1,0 +1,414 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> Training model for 1 th fold validation
+Replicate 1, 181 iterations, total sum of distances = 1.73871e+08.
+Replicate 2, 178 iterations, total sum of distances = 1.73899e+08.
+Replicate 3, 231 iterations, total sum of distances = 1.73606e+08.
+Replicate 4, 235 iterations, total sum of distances = 1.74114e+08.
+Replicate 5, 173 iterations, total sum of distances = 1.73824e+08.
+Best total sum of distances = 1.73606e+08
+156 iterations, log-likelihood = -1.45759e+06
+Replicate 1, 246 iterations, total sum of distances = 9.76053e+07.
+Replicate 2, 216 iterations, total sum of distances = 9.75954e+07.
+Replicate 3, 129 iterations, total sum of distances = 9.78225e+07.
+Replicate 4, 181 iterations, total sum of distances = 9.80421e+07.
+Replicate 5, 218 iterations, total sum of distances = 9.78051e+07.
+Best total sum of distances = 9.75954e+07
+256 iterations, log-likelihood = -1.33841e+06
+Replicate 1, 169 iterations, total sum of distances = 1.69571e+08.
+Replicate 2, 171 iterations, total sum of distances = 1.69848e+08.
+Replicate 3, 150 iterations, total sum of distances = 1.6973e+08.
+Replicate 4, 238 iterations, total sum of distances = 1.69337e+08.
+Replicate 5, 185 iterations, total sum of distances = 1.69695e+08.
+Best total sum of distances = 1.69337e+08
+196 iterations, log-likelihood = -1.42229e+06
+Replicate 1, 195 iterations, total sum of distances = 2.91435e+08.
+Replicate 2, 150 iterations, total sum of distances = 2.91693e+08.
+Replicate 3, 238 iterations, total sum of distances = 2.91212e+08.
+Replicate 4, 227 iterations, total sum of distances = 2.91747e+08.
+Replicate 5, 205 iterations, total sum of distances = 2.91026e+08.
+Best total sum of distances = 2.91026e+08
+153 iterations, log-likelihood = -1.56863e+06
+Replicate 1, 167 iterations, total sum of distances = 1.58747e+08.
+Replicate 2, 170 iterations, total sum of distances = 1.58889e+08.
+Replicate 3, 147 iterations, total sum of distances = 1.58706e+08.
+Replicate 4, 139 iterations, total sum of distances = 1.58919e+08.
+Replicate 5, 145 iterations, total sum of distances = 1.58891e+08.
+Best total sum of distances = 1.58706e+08
+145 iterations, log-likelihood = -1.41805e+06
+Replicate 1, 169 iterations, total sum of distances = 1.33757e+08.
+Replicate 2, 182 iterations, total sum of distances = 1.33457e+08.
+Replicate 3, 150 iterations, total sum of distances = 1.33112e+08.
+Replicate 4, 245 iterations, total sum of distances = 1.33391e+08.
+Replicate 5, 240 iterations, total sum of distances = 1.33209e+08.
+Best total sum of distances = 1.33112e+08
+283 iterations, log-likelihood = -1.38763e+06
+Replicate 1, 149 iterations, total sum of distances = 2.3509e+08.
+Replicate 2, 214 iterations, total sum of distances = 2.34696e+08.
+Replicate 3, 205 iterations, total sum of distances = 2.34399e+08.
+Replicate 4, 148 iterations, total sum of distances = 2.35353e+08.
+Replicate 5, 143 iterations, total sum of distances = 2.35236e+08.
+Best total sum of distances = 2.34399e+08
+195 iterations, log-likelihood = -1.52535e+06
+Replicate 1, 207 iterations, total sum of distances = 1.68012e+08.
+Replicate 2, 214 iterations, total sum of distances = 1.67489e+08.
+Replicate 3, 248 iterations, total sum of distances = 1.67741e+08.
+Replicate 4, 205 iterations, total sum of distances = 1.6751e+08.
+Replicate 5, 191 iterations, total sum of distances = 1.67589e+08.
+Best total sum of distances = 1.67489e+08
+175 iterations, log-likelihood = -1.43248e+06
+Replicate 1, 155 iterations, total sum of distances = 1.63774e+08.
+Replicate 2, 205 iterations, total sum of distances = 1.63537e+08.
+Replicate 3, 189 iterations, total sum of distances = 1.63385e+08.
+Replicate 4, 163 iterations, total sum of distances = 1.64275e+08.
+Replicate 5, 255 iterations, total sum of distances = 1.63564e+08.
+Best total sum of distances = 1.63385e+08
+157 iterations, log-likelihood = -1.42868e+06
+Replicate 1, 185 iterations, total sum of distances = 1.28186e+08.
+Replicate 2, 150 iterations, total sum of distances = 1.28066e+08.
+Replicate 3, 186 iterations, total sum of distances = 1.27999e+08.
+Replicate 4, 275 iterations, total sum of distances = 1.27917e+08.
+Replicate 5, 129 iterations, total sum of distances = 1.27983e+08.
+Best total sum of distances = 1.27917e+08
+198 iterations, log-likelihood = -1.4099e+06
+Testing model for 1 th fold validation
+Training model for 2 th fold validation
+Replicate 1, 206 iterations, total sum of distances = 1.65848e+08.
+Replicate 2, 134 iterations, total sum of distances = 1.66258e+08.
+Replicate 3, 179 iterations, total sum of distances = 1.65959e+08.
+Replicate 4, 180 iterations, total sum of distances = 1.65923e+08.
+Replicate 5, 222 iterations, total sum of distances = 1.66341e+08.
+Best total sum of distances = 1.65848e+08
+264 iterations, log-likelihood = -1.43636e+06
+Replicate 1, 151 iterations, total sum of distances = 9.72305e+07.
+Replicate 2, 122 iterations, total sum of distances = 9.72951e+07.
+Replicate 3, 145 iterations, total sum of distances = 9.716e+07.
+Replicate 4, 277 iterations, total sum of distances = 9.70701e+07.
+Replicate 5, 247 iterations, total sum of distances = 9.69153e+07.
+Best total sum of distances = 9.69153e+07
+194 iterations, log-likelihood = -1.32896e+06
+Replicate 1, 184 iterations, total sum of distances = 1.53485e+08.
+Replicate 2, 139 iterations, total sum of distances = 1.53384e+08.
+Replicate 3, 186 iterations, total sum of distances = 1.53221e+08.
+Replicate 4, 136 iterations, total sum of distances = 1.53251e+08.
+Replicate 5, 242 iterations, total sum of distances = 1.53111e+08.
+Best total sum of distances = 1.53111e+08
+131 iterations, log-likelihood = -1.40623e+06
+Replicate 1, 178 iterations, total sum of distances = 3.07333e+08.
+Replicate 2, 280 iterations, total sum of distances = 3.06648e+08.
+Replicate 3, 199 iterations, total sum of distances = 3.07364e+08.
+Replicate 4, 171 iterations, total sum of distances = 3.07508e+08.
+Replicate 5, 99 iterations, total sum of distances = 3.07789e+08.
+Best total sum of distances = 3.06648e+08
+144 iterations, log-likelihood = -1.58052e+06
+Replicate 1, 199 iterations, total sum of distances = 1.40194e+08.
+Replicate 2, 187 iterations, total sum of distances = 1.40274e+08.
+Replicate 3, 193 iterations, total sum of distances = 1.40151e+08.
+Replicate 4, 178 iterations, total sum of distances = 1.40275e+08.
+Replicate 5, 276 iterations, total sum of distances = 1.39934e+08.
+Best total sum of distances = 1.39934e+08
+180 iterations, log-likelihood = -1.39667e+06
+Replicate 1, 243 iterations, total sum of distances = 1.31036e+08.
+Replicate 2, 135 iterations, total sum of distances = 1.31376e+08.
+Replicate 3, 164 iterations, total sum of distances = 1.31317e+08.
+Replicate 4, 190 iterations, total sum of distances = 1.31165e+08.
+Replicate 5, 165 iterations, total sum of distances = 1.30731e+08.
+Best total sum of distances = 1.30731e+08
+176 iterations, log-likelihood = -1.39744e+06
+Replicate 1, 134 iterations, total sum of distances = 2.45587e+08.
+Replicate 2, 152 iterations, total sum of distances = 2.45943e+08.
+Replicate 3, 160 iterations, total sum of distances = 2.45923e+08.
+Replicate 4, 157 iterations, total sum of distances = 2.46231e+08.
+Replicate 5, 148 iterations, total sum of distances = 2.45944e+08.
+Best total sum of distances = 2.45587e+08
+190 iterations, log-likelihood = -1.54231e+06
+Replicate 1, 139 iterations, total sum of distances = 1.74379e+08.
+Replicate 2, 229 iterations, total sum of distances = 1.74344e+08.
+Replicate 3, 180 iterations, total sum of distances = 1.74406e+08.
+Replicate 4, 138 iterations, total sum of distances = 1.74623e+08.
+Replicate 5, 155 iterations, total sum of distances = 1.7468e+08.
+Best total sum of distances = 1.74344e+08
+105 iterations, log-likelihood = -1.44943e+06
+Replicate 1, 198 iterations, total sum of distances = 1.81538e+08.
+Replicate 2, 165 iterations, total sum of distances = 1.81305e+08.
+Replicate 3, 183 iterations, total sum of distances = 1.81746e+08.
+Replicate 4, 212 iterations, total sum of distances = 1.81426e+08.
+Replicate 5, 146 iterations, total sum of distances = 1.81453e+08.
+Best total sum of distances = 1.81305e+08
+287 iterations, log-likelihood = -1.44812e+06
+Replicate 1, 144 iterations, total sum of distances = 1.241e+08.
+Replicate 2, 142 iterations, total sum of distances = 1.243e+08.
+Replicate 3, 159 iterations, total sum of distances = 1.24413e+08.
+Replicate 4, 212 iterations, total sum of distances = 1.24181e+08.
+Replicate 5, 154 iterations, total sum of distances = 1.24458e+08.
+Best total sum of distances = 1.241e+08
+236 iterations, log-likelihood = -1.40506e+06
+Testing model for 2 th fold validation
+Training model for 3 th fold validation
+Replicate 1, 167 iterations, total sum of distances = 1.75374e+08.
+Replicate 2, 173 iterations, total sum of distances = 1.75096e+08.
+Replicate 3, 100 iterations, total sum of distances = 1.75654e+08.
+Replicate 4, 187 iterations, total sum of distances = 1.74975e+08.
+Replicate 5, 152 iterations, total sum of distances = 1.75458e+08.
+Best total sum of distances = 1.74975e+08
+199 iterations, log-likelihood = -1.45125e+06
+Replicate 1, 190 iterations, total sum of distances = 9.55401e+07.
+Replicate 2, 309 iterations, total sum of distances = 9.54261e+07.
+Replicate 3, 274 iterations, total sum of distances = 9.55373e+07.
+Replicate 4, 136 iterations, total sum of distances = 9.58165e+07.
+Replicate 5, 239 iterations, total sum of distances = 9.57792e+07.
+Best total sum of distances = 9.54261e+07
+245 iterations, log-likelihood = -1.32841e+06
+Replicate 1, 157 iterations, total sum of distances = 1.74007e+08.
+Replicate 2, 205 iterations, total sum of distances = 1.73252e+08.
+Replicate 3, 202 iterations, total sum of distances = 1.7364e+08.
+Replicate 4, 173 iterations, total sum of distances = 1.73839e+08.
+Replicate 5, 154 iterations, total sum of distances = 1.73958e+08.
+Best total sum of distances = 1.73252e+08
+172 iterations, log-likelihood = -1.42812e+06
+Replicate 1, 216 iterations, total sum of distances = 2.84482e+08.
+Replicate 2, 200 iterations, total sum of distances = 2.84051e+08.
+Replicate 3, 215 iterations, total sum of distances = 2.83664e+08.
+Replicate 4, 158 iterations, total sum of distances = 2.84576e+08.
+Replicate 5, 137 iterations, total sum of distances = 2.84054e+08.
+Best total sum of distances = 2.83664e+08
+153 iterations, log-likelihood = -1.56117e+06
+Replicate 1, 136 iterations, total sum of distances = 1.4574e+08.
+Replicate 2, 192 iterations, total sum of distances = 1.4571e+08.
+Replicate 3, 169 iterations, total sum of distances = 1.45969e+08.
+Replicate 4, 270 iterations, total sum of distances = 1.45853e+08.
+Replicate 5, 251 iterations, total sum of distances = 1.45905e+08.
+Best total sum of distances = 1.4571e+08
+167 iterations, log-likelihood = -1.39892e+06
+Replicate 1, 252 iterations, total sum of distances = 1.39133e+08.
+Replicate 2, 162 iterations, total sum of distances = 1.3913e+08.
+Replicate 3, 213 iterations, total sum of distances = 1.39228e+08.
+Replicate 4, 160 iterations, total sum of distances = 1.39152e+08.
+Replicate 5, 239 iterations, total sum of distances = 1.39082e+08.
+Best total sum of distances = 1.39082e+08
+340 iterations, log-likelihood = -1.40962e+06
+Replicate 1, 222 iterations, total sum of distances = 2.33191e+08.
+Replicate 2, 216 iterations, total sum of distances = 2.33778e+08.
+Replicate 3, 155 iterations, total sum of distances = 2.33792e+08.
+Replicate 4, 187 iterations, total sum of distances = 2.34518e+08.
+Replicate 5, 182 iterations, total sum of distances = 2.33532e+08.
+Best total sum of distances = 2.33191e+08
+186 iterations, log-likelihood = -1.52748e+06
+Replicate 1, 315 iterations, total sum of distances = 1.62159e+08.
+Replicate 2, 151 iterations, total sum of distances = 1.61812e+08.
+Replicate 3, 139 iterations, total sum of distances = 1.62009e+08.
+Replicate 4, 158 iterations, total sum of distances = 1.62193e+08.
+Replicate 5, 202 iterations, total sum of distances = 1.62153e+08.
+Best total sum of distances = 1.61812e+08
+108 iterations, log-likelihood = -1.42629e+06
+Replicate 1, 109 iterations, total sum of distances = 1.62941e+08.
+Replicate 2, 204 iterations, total sum of distances = 1.6263e+08.
+Replicate 3, 177 iterations, total sum of distances = 1.63105e+08.
+Replicate 4, 259 iterations, total sum of distances = 1.62625e+08.
+Replicate 5, 188 iterations, total sum of distances = 1.62803e+08.
+Best total sum of distances = 1.62625e+08
+177 iterations, log-likelihood = -1.4389e+06
+Replicate 1, 188 iterations, total sum of distances = 1.24894e+08.
+Replicate 2, 190 iterations, total sum of distances = 1.24804e+08.
+Replicate 3, 173 iterations, total sum of distances = 1.24829e+08.
+Replicate 4, 182 iterations, total sum of distances = 1.2493e+08.
+Replicate 5, 239 iterations, total sum of distances = 1.2482e+08.
+Best total sum of distances = 1.24804e+08
+178 iterations, log-likelihood = -1.39829e+06
+Testing model for 3 th fold validation
+Training model for 4 th fold validation
+Replicate 1, 180 iterations, total sum of distances = 1.45825e+08.
+Replicate 2, 164 iterations, total sum of distances = 1.45887e+08.
+Replicate 3, 202 iterations, total sum of distances = 1.45664e+08.
+Replicate 4, 220 iterations, total sum of distances = 1.45845e+08.
+Replicate 5, 149 iterations, total sum of distances = 1.46115e+08.
+Best total sum of distances = 1.45664e+08
+198 iterations, log-likelihood = -1.41345e+06
+Replicate 1, 184 iterations, total sum of distances = 9.30321e+07.
+Replicate 2, 170 iterations, total sum of distances = 9.28886e+07.
+Replicate 3, 223 iterations, total sum of distances = 9.29858e+07.
+Replicate 4, 154 iterations, total sum of distances = 9.32035e+07.
+Replicate 5, 187 iterations, total sum of distances = 9.28395e+07.
+Best total sum of distances = 9.28395e+07
+349 iterations, log-likelihood = -1.31704e+06
+Replicate 1, 199 iterations, total sum of distances = 1.53216e+08.
+Replicate 2, 134 iterations, total sum of distances = 1.53649e+08.
+Replicate 3, 200 iterations, total sum of distances = 1.53292e+08.
+Replicate 4, 139 iterations, total sum of distances = 1.53464e+08.
+Replicate 5, 245 iterations, total sum of distances = 1.52798e+08.
+Best total sum of distances = 1.52798e+08
+202 iterations, log-likelihood = -1.39772e+06
+Replicate 1, 177 iterations, total sum of distances = 3.12328e+08.
+Replicate 2, 156 iterations, total sum of distances = 3.12131e+08.
+Replicate 3, 145 iterations, total sum of distances = 3.13011e+08.
+Replicate 4, 182 iterations, total sum of distances = 3.12661e+08.
+Replicate 5, 143 iterations, total sum of distances = 3.12922e+08.
+Best total sum of distances = 3.12131e+08
+144 iterations, log-likelihood = -1.58641e+06
+Replicate 1, 247 iterations, total sum of distances = 1.5962e+08.
+Replicate 2, 158 iterations, total sum of distances = 1.59788e+08.
+Replicate 3, 208 iterations, total sum of distances = 1.5968e+08.
+Replicate 4, 155 iterations, total sum of distances = 1.59993e+08.
+Replicate 5, 202 iterations, total sum of distances = 1.59603e+08.
+Best total sum of distances = 1.59603e+08
+150 iterations, log-likelihood = -1.42633e+06
+Replicate 1, 213 iterations, total sum of distances = 1.38762e+08.
+Replicate 2, 191 iterations, total sum of distances = 1.38357e+08.
+Replicate 3, 148 iterations, total sum of distances = 1.38607e+08.
+Replicate 4, 157 iterations, total sum of distances = 1.38331e+08.
+Replicate 5, 157 iterations, total sum of distances = 1.38666e+08.
+Best total sum of distances = 1.38331e+08
+291 iterations, log-likelihood = -1.40259e+06
+Replicate 1, 136 iterations, total sum of distances = 2.48057e+08.
+Replicate 2, 245 iterations, total sum of distances = 2.48259e+08.
+Replicate 3, 163 iterations, total sum of distances = 2.48198e+08.
+Replicate 4, 134 iterations, total sum of distances = 2.47824e+08.
+Replicate 5, 201 iterations, total sum of distances = 2.47935e+08.
+Best total sum of distances = 2.47824e+08
+148 iterations, log-likelihood = -1.54537e+06
+Replicate 1, 173 iterations, total sum of distances = 1.73624e+08.
+Replicate 2, 151 iterations, total sum of distances = 1.73566e+08.
+Replicate 3, 181 iterations, total sum of distances = 1.73385e+08.
+Replicate 4, 198 iterations, total sum of distances = 1.73512e+08.
+Replicate 5, 257 iterations, total sum of distances = 1.73123e+08.
+Best total sum of distances = 1.73123e+08
+133 iterations, log-likelihood = -1.45235e+06
+Replicate 1, 227 iterations, total sum of distances = 1.897e+08.
+Replicate 2, 156 iterations, total sum of distances = 1.89423e+08.
+Replicate 3, 198 iterations, total sum of distances = 1.89196e+08.
+Replicate 4, 161 iterations, total sum of distances = 1.89358e+08.
+Replicate 5, 156 iterations, total sum of distances = 1.89389e+08.
+Best total sum of distances = 1.89196e+08
+267 iterations, log-likelihood = -1.47033e+06
+Replicate 1, 145 iterations, total sum of distances = 1.32658e+08.
+Replicate 2, 178 iterations, total sum of distances = 1.32922e+08.
+Replicate 3, 187 iterations, total sum of distances = 1.32823e+08.
+Replicate 4, 168 iterations, total sum of distances = 1.32713e+08.
+Replicate 5, 167 iterations, total sum of distances = 1.3295e+08.
+Best total sum of distances = 1.32658e+08
+278 iterations, log-likelihood = -1.41389e+06
+Testing model for 4 th fold validation
+Training model for 5 th fold validation
+Replicate 1, 186 iterations, total sum of distances = 1.70059e+08.
+Replicate 2, 201 iterations, total sum of distances = 1.69725e+08.
+Replicate 3, 192 iterations, total sum of distances = 1.7042e+08.
+Replicate 4, 217 iterations, total sum of distances = 1.70261e+08.
+Replicate 5, 178 iterations, total sum of distances = 1.70115e+08.
+Best total sum of distances = 1.69725e+08
+152 iterations, log-likelihood = -1.44363e+06
+Replicate 1, 150 iterations, total sum of distances = 9.32074e+07.
+Replicate 2, 164 iterations, total sum of distances = 9.33288e+07.
+Replicate 3, 118 iterations, total sum of distances = 9.33087e+07.
+Replicate 4, 216 iterations, total sum of distances = 9.33098e+07.
+Replicate 5, 200 iterations, total sum of distances = 9.32999e+07.
+Best total sum of distances = 9.32074e+07
+218 iterations, log-likelihood = -1.33057e+06
+Replicate 1, 154 iterations, total sum of distances = 1.70654e+08.
+Replicate 2, 108 iterations, total sum of distances = 1.7058e+08.
+Replicate 3, 234 iterations, total sum of distances = 1.6888e+08.
+Replicate 4, 237 iterations, total sum of distances = 1.70095e+08.
+Replicate 5, 255 iterations, total sum of distances = 1.70121e+08.
+Best total sum of distances = 1.6888e+08
+152 iterations, log-likelihood = -1.42037e+06
+Replicate 1, 160 iterations, total sum of distances = 2.93687e+08.
+Replicate 2, 171 iterations, total sum of distances = 2.93789e+08.
+Replicate 3, 193 iterations, total sum of distances = 2.93859e+08.
+Replicate 4, 159 iterations, total sum of distances = 2.94112e+08.
+Replicate 5, 137 iterations, total sum of distances = 2.93805e+08.
+Best total sum of distances = 2.93687e+08
+158 iterations, log-likelihood = -1.57725e+06
+Replicate 1, 252 iterations, total sum of distances = 1.36549e+08.
+Replicate 2, 172 iterations, total sum of distances = 1.36578e+08.
+Replicate 3, 178 iterations, total sum of distances = 1.36872e+08.
+Replicate 4, 128 iterations, total sum of distances = 1.36559e+08.
+Replicate 5, 183 iterations, total sum of distances = 1.36685e+08.
+Best total sum of distances = 1.36549e+08
+136 iterations, log-likelihood = -1.38784e+06
+Replicate 1, 233 iterations, total sum of distances = 1.21457e+08.
+Replicate 2, 176 iterations, total sum of distances = 1.21649e+08.
+Replicate 3, 173 iterations, total sum of distances = 1.21494e+08.
+Replicate 4, 167 iterations, total sum of distances = 1.21698e+08.
+Replicate 5, 202 iterations, total sum of distances = 1.21487e+08.
+Best total sum of distances = 1.21457e+08
+294 iterations, log-likelihood = -1.37372e+06
+Replicate 1, 270 iterations, total sum of distances = 2.33315e+08.
+Replicate 2, 205 iterations, total sum of distances = 2.33677e+08.
+Replicate 3, 178 iterations, total sum of distances = 2.33938e+08.
+Replicate 4, 145 iterations, total sum of distances = 2.33398e+08.
+Replicate 5, 285 iterations, total sum of distances = 2.33347e+08.
+Best total sum of distances = 2.33315e+08
+163 iterations, log-likelihood = -1.53639e+06
+Replicate 1, 221 iterations, total sum of distances = 1.74646e+08.
+Replicate 2, 184 iterations, total sum of distances = 1.75294e+08.
+Replicate 3, 183 iterations, total sum of distances = 1.74849e+08.
+Replicate 4, 209 iterations, total sum of distances = 1.74731e+08.
+Replicate 5, 212 iterations, total sum of distances = 1.75183e+08.
+Best total sum of distances = 1.74646e+08
+125 iterations, log-likelihood = -1.45297e+06
+Replicate 1, 253 iterations, total sum of distances = 1.67657e+08.
+Replicate 2, 226 iterations, total sum of distances = 1.67015e+08.
+Replicate 3, 153 iterations, total sum of distances = 1.6711e+08.
+Replicate 4, 246 iterations, total sum of distances = 1.67169e+08.
+Replicate 5, 233 iterations, total sum of distances = 1.67293e+08.
+Best total sum of distances = 1.67015e+08
+178 iterations, log-likelihood = -1.4367e+06
+Replicate 1, 192 iterations, total sum of distances = 1.22891e+08.
+Replicate 2, 185 iterations, total sum of distances = 1.22879e+08.
+Replicate 3, 227 iterations, total sum of distances = 1.2295e+08.
+Replicate 4, 202 iterations, total sum of distances = 1.2304e+08.
+Replicate 5, 227 iterations, total sum of distances = 1.22887e+08.
+Best total sum of distances = 1.22879e+08
+168 iterations, log-likelihood = -1.39456e+06
+Testing model for 5 th fold validation
+
+sumCM =
+
+     9     0     0     0     0     0     0     0     1     0
+     0     5     0     2     0     0     0     1     0     2
+     0     0     8     0     1     0     0     1     0     0
+     0     0     0     8     0     0     2     0     0     0
+     0     0     1     0     7     2     0     0     0     0
+     0     0     0     1     4     5     0     0     0     0
+     0     0     0     6     0     0     4     0     0     0
+     1     0     1     4     0     1     0     2     0     1
+     1     0     0     1     0     0     0     0     8     0
+     0     0     0     2     0     0     1     0     4     3
+
+
+accuracy =
+
+    0.5900
+
+
+sumRT =
+
+   1.0e+04 *
+
+    2.7849
+    0.0073
+
+
+ans =
+
+     9     0     0     0     0     0     0     0     1     0
+     0     5     0     2     0     0     0     1     0     2
+     0     0     8     0     1     0     0     1     0     0
+     0     0     0     8     0     0     2     0     0     0
+     0     0     1     0     7     2     0     0     0     0
+     0     0     0     1     4     5     0     0     0     0
+     0     0     0     6     0     0     4     0     0     0
+     1     0     1     4     0     1     0     2     0     1
+     1     0     0     1     0     0     0     0     8     0
+     0     0     0     2     0     0     1     0     4     3
+
+>> 
