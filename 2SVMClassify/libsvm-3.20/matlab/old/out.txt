@@ -1,0 +1,330 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> Reading DataSet
+fileName =
+bus01.wav
+fileName =
+bus02.wav
+fileName =
+bus03.wav
+fileName =
+bus04.wav
+fileName =
+bus05.wav
+fileName =
+bus06.wav
+fileName =
+bus07.wav
+fileName =
+bus08.wav
+fileName =
+bus09.wav
+fileName =
+bus10.wav
+fileName =
+busystreet01.wav
+fileName =
+busystreet02.wav
+fileName =
+busystreet03.wav
+fileName =
+busystreet04.wav
+fileName =
+busystreet05.wav
+fileName =
+busystreet06.wav
+fileName =
+busystreet07.wav
+fileName =
+busystreet08.wav
+fileName =
+busystreet09.wav
+fileName =
+busystreet10.wav
+fileName =
+office01.wav
+fileName =
+office02.wav
+fileName =
+office03.wav
+fileName =
+office04.wav
+fileName =
+office05.wav
+fileName =
+office06.wav
+fileName =
+office07.wav
+fileName =
+office08.wav
+fileName =
+office09.wav
+fileName =
+office10.wav
+fileName =
+openairmarket01.wav
+fileName =
+openairmarket02.wav
+fileName =
+openairmarket03.wav
+fileName =
+openairmarket04.wav
+fileName =
+openairmarket05.wav
+fileName =
+openairmarket06.wav
+fileName =
+openairmarket07.wav
+fileName =
+openairmarket08.wav
+fileName =
+openairmarket09.wav
+fileName =
+openairmarket10.wav
+fileName =
+park01.wav
+fileName =
+park02.wav
+fileName =
+park03.wav
+fileName =
+park04.wav
+fileName =
+park05.wav
+fileName =
+park06.wav
+fileName =
+park07.wav
+fileName =
+park08.wav
+fileName =
+park09.wav
+fileName =
+park10.wav
+fileName =
+quietstreet01.wav
+fileName =
+quietstreet02.wav
+fileName =
+quietstreet03.wav
+fileName =
+quietstreet04.wav
+fileName =
+quietstreet05.wav
+fileName =
+quietstreet06.wav
+fileName =
+quietstreet07.wav
+fileName =
+quietstreet08.wav
+fileName =
+quietstreet09.wav
+fileName =
+quietstreet10.wav
+fileName =
+restaurant01.wav
+fileName =
+restaurant02.wav
+fileName =
+restaurant03.wav
+fileName =
+restaurant04.wav
+fileName =
+restaurant05.wav
+fileName =
+restaurant06.wav
+fileName =
+restaurant07.wav
+fileName =
+restaurant08.wav
+fileName =
+restaurant09.wav
+fileName =
+restaurant10.wav
+fileName =
+supermarket01.wav
+fileName =
+supermarket02.wav
+fileName =
+supermarket03.wav
+fileName =
+supermarket04.wav
+fileName =
+supermarket05.wav
+fileName =
+supermarket06.wav
+fileName =
+supermarket07.wav
+fileName =
+supermarket08.wav
+fileName =
+supermarket09.wav
+fileName =
+supermarket10.wav
+fileName =
+tube01.wav
+fileName =
+tube02.wav
+fileName =
+tube03.wav
+fileName =
+tube04.wav
+fileName =
+tube05.wav
+fileName =
+tube06.wav
+fileName =
+tube07.wav
+fileName =
+tube08.wav
+fileName =
+tube09.wav
+fileName =
+tube10.wav
+fileName =
+tubestation01.wav
+fileName =
+tubestation02.wav
+fileName =
+tubestation03.wav
+fileName =
+tubestation04.wav
+fileName =
+tubestation05.wav
+fileName =
+tubestation06.wav
+fileName =
+tubestation07.wav
+fileName =
+tubestation08.wav
+fileName =
+tubestation09.wav
+fileName =
+tubestation10.wav
+Elapsed time is 419.073499 seconds.
+Training Naive Bayes for 1 th fold validation
+Elapsed time is 0.211953 seconds.
+Testing Naive Bayes for 1 th fold validation
+Elapsed time is 0.204242 seconds.
+Naive Bayes Stats
+NBCM =
+     0     1     0     0     0     0     0     0     1     0
+     0     1     0     0     0     0     0     0     0     1
+     0     0     1     0     1     0     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0
+     0     0     0     0     1     1     0     0     0     0
+     0     0     0     0     0     2     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0
+     1     0     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     1     1     0
+     0     0     0     0     0     0     0     0     1     1
+correct =
+     8
+incorrect =
+    12
+accuracy =
+   0.400000000000000
+Plotting NB
+Training Naive Bayes for 2 th fold validation
+Elapsed time is 0.140257 seconds.
+Testing Naive Bayes for 2 th fold validation
+Elapsed time is 0.174057 seconds.
+Naive Bayes Stats
+NBCM =
+     2     0     0     0     0     0     0     0     0     0
+     0     2     0     0     0     0     0     0     0     0
+     0     0     2     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     0     0     1
+     0     0     0     0     0     2     0     0     0     0
+     0     0     0     0     2     0     0     0     0     0
+     0     0     0     1     0     0     1     0     0     0
+     0     0     0     1     0     0     0     0     0     1
+     0     0     0     0     0     0     0     1     0     1
+     0     0     0     0     0     0     0     0     0     2
+correct =
+    10
+incorrect =
+    10
+accuracy =
+   0.500000000000000
+Plotting NB
+Training Naive Bayes for 3 th fold validation
+Elapsed time is 0.132175 seconds.
+Testing Naive Bayes for 3 th fold validation
+Elapsed time is 0.173817 seconds.
+Naive Bayes Stats
+NBCM =
+     1     0     0     0     0     0     0     0     0     1
+     0     1     0     0     0     0     0     0     0     1
+     0     0     2     0     0     0     0     0     0     0
+     0     0     0     1     0     0     1     0     0     0
+     0     0     0     0     2     0     0     0     0     0
+     0     0     0     0     1     1     0     0     0     0
+     0     0     0     2     0     0     0     0     0     0
+     0     0     1     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     1     1
+     0     0     0     1     0     0     0     0     1     0
+correct =
+     9
+incorrect =
+    11
+accuracy =
+   0.450000000000000
+Plotting NB
+Training Naive Bayes for 4 th fold validation
+Elapsed time is 0.133866 seconds.
+Testing Naive Bayes for 4 th fold validation
+Elapsed time is 0.174835 seconds.
+Naive Bayes Stats
+NBCM =
+     1     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     1     1     0     0
+     0     0     1     0     0     1     0     0     0     0
+     0     0     0     1     0     0     1     0     0     0
+     0     0     1     0     1     0     0     0     0     0
+     0     0     0     0     1     1     0     0     0     0
+     0     0     0     1     0     0     1     0     0     0
+     0     0     0     0     0     0     1     1     0     0
+     0     0     0     0     0     0     0     0     1     1
+     0     0     0     0     0     0     0     0     1     1
+correct =
+     9
+incorrect =
+    11
+accuracy =
+   0.450000000000000
+Plotting NB
+Training Naive Bayes for 5 th fold validation
+Elapsed time is 0.133494 seconds.
+Testing Naive Bayes for 5 th fold validation
+Elapsed time is 0.174013 seconds.
+Naive Bayes Stats
+NBCM =
+     2     0     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     1     0     0     0
+     0     0     1     0     0     1     0     0     0     0
+     0     0     0     0     0     0     2     0     0     0
+     0     0     1     0     0     1     0     0     0     0
+     0     0     1     0     0     0     0     1     0     0
+     0     0     0     1     0     0     0     1     0     0
+     0     0     0     0     0     1     0     1     0     0
+     0     0     0     0     0     0     0     0     0     2
+     1     0     0     0     0     0     1     0     0     0
+correct =
+     5
+incorrect =
+    15
+accuracy =
+   0.250000000000000
+Plotting NB
+>> 
