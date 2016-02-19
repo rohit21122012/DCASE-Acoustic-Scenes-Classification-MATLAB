@@ -8,9 +8,4 @@ Data Set:
   4. Each sample of 30 sec of 44100Hz Sampling Rate
 
 Features for Acoustic Scene Audio:
-  1. MFCC
-  2. Delta + Double Delta
-  3. Delta + Double Delta
-  4. Delta + Double Delta + log (Energy)
-  5. Delta + Double Delta + log (Energy) + ZCR
-  6. ZCR
+  1. MFCC + Delta + Double Delta + log (Energy) + ZCR
